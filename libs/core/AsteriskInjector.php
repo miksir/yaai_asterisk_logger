@@ -1,9 +1,9 @@
 <?php
 /**
  * Injector class. Here we are creating all required classes. On create we are checking constructor of class
- * for required dependences for injection. This is also work as singlton fabric.
+ * for required dependence for injection. This is also work as singlton fabric.
  *
- * @author  Dmitry MiksIr <miksir@gmail.com>
+ * @author  Dmitry MiksIr <dmiksir@gmail.com>
  * @license GPLv3
  *
  * @method setLoggerInterface(LoggerInterface $logger)
@@ -25,7 +25,7 @@
 class AsteriskInjector
 {
     protected $cache = array();
-    /* Map for class names, here we can map some requred dependences
+    /* Map for class names, here we can map some required dependence
      * to real classes (its very important if class want interface) */
     protected $_map = array(
         'CacheInterface' => 'NullCache',

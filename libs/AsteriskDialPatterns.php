@@ -39,7 +39,7 @@ class AsteriskDialPatterns implements ObserverInterface
 
     /**
      * Cleanup phone string sended by Asterisk to uplink (usually as Dialstring param - Asterisk 1.6.1+) for search in Sugar
-     * Usually format of dialstring is "string/number", so pattern need to stip string, slash and may be some digits if we need it
+     * Usually format of Dialstring is "string/number", so pattern need to strip "string/" and may be some digits if we need it
      * @param $phone
      * @return mixed
      */

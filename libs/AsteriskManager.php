@@ -4,7 +4,7 @@
  * Based on phpagi (http://phpagi.sourceforge.net)
  *
  * phpagi Copyright (c) 2004 - 2010 Matthew Asham <matthew@ochrelabs.com>, David Eder <david@eder.us> and others
- * AsteriskManager Copyright (c) 2012 Dmitry MiksIr <miksir@maker.ru>
+ * AsteriskManager Copyright (c) 2012 Dmitry MiksIr <dmiksir@gmail.com>
  * All Rights Reserved.
  *
  * This software is released under the terms of the GNU Lesser General Public License v2.1
